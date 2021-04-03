@@ -1,0 +1,181 @@
+body {
+	font-family: "Roboto Condensed",sans-serif;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clr {
+	clear:both;
+}
+@media (max-width: 576px) { 
+	.title h3 {
+        font-size: 16px!important;
+    }
+    .footer img {
+        width: 100%;
+    }
+}
+.header .logo a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar {
+    display: none;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    padding: 40px;
+}
+.navbar .logo {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar .logo .hamburger {
+    cursor: pointer;
+    font-size: 28px;
+    color: #6b46f3;
+    margin-left: 50px;
+}
+.navbar .logo img {
+    width: 154px;
+    height: auto;
+}
+.navbar .menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .menu li {
+    padding: 5px 0;
+    list-style: none;
+}
+.navbar .menu li a {
+    border-radius: 5px;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#A9A9A9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.navbar .menu li a:hover {
+    background: #6b46f3;
+    color: #fff;
+}
+.navbar .banner {
+    text-align: center;
+}
+.home {
+    background: #fff;
+    display: block;
+}
+.header {
+    background: #6b46f3;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header .logo a {
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.header .menu-button a {
+    line-height: 1;
+    font-size: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #fff;
+}
+.main {
+    padding: 0 30px;
+}
+.main .search-bar {
+    margin: 15px 0px;
+    padding: 0;
+}
+.main .search-bar input {
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+}
+.main .search-bar button {
+    position: absolute;
+    margin-left: -45px;
+    border: none;
+    background: none;
+}
+.main .search-bar button i {
+    font-size: 25px;
+    line-height: 1.8;
+    color: #6b46f3;
+}
+.main .type {
+    display: flex;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 20px;
+}
+.main .type .image img {
+    width: 100px;
+    height: auto;
+}
+.main .type .text {
+    margin-left: 15px;
+    padding: 0;
+}
+.main .type .text .title h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.main .type .text .date {
+    padding-bottom: 5px;
+}
+.main .type .text .date i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #6b46f3;
+    line-height: 1.2;
+}
+.main .type .text .date p {
+    color: #8d8d8d;
+    font-size: 15px;
+    margin: 0;
+}
+.main .type .text .source span {
+    font-size: 17px;
+    padding-right: 10px;
+    color: #6b46f3;
+    line-height: 1;
+}
+.main .type .text .source img {
+    height: 17px;
+    width: auto;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+}
